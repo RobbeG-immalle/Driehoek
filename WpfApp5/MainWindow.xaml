@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Canvas x:Name="mijnCanvas" HorizontalAlignment="Left" Height="255" Margin="18,25,0,0" VerticalAlignment="Top" Width="336" Background="#FFB0ACAC"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="399,41,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
     </Grid>
 </Window>
